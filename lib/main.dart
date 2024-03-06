@@ -20,12 +20,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   @override
-  Widget build(BuildContext context) =>
-   
-     ChangeNotifierProvider(
-      create:(_) => FirebaseProvider(),
-       child: GetMaterialApp(
-          debugShowCheckedModeBanner: false, title: "TikTok", home: AuthChange()),
-     );
-  
+  Widget build(BuildContext context) => ChangeNotifierProvider(
+        create: (_) => FirebaseProvider(),
+        child: GetMaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: "TikTok",
+            home: AuthChange()),
+      );
 }

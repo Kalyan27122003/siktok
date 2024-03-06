@@ -7,7 +7,7 @@ class FirebaseProvider extends ChangeNotifier {
   List<UserModel> getAllUsers() {
     FirebaseFirestore.instance
         .collection('users')
-        .orderBy('lastActive',descending: true)
+        .orderBy('lastActive', descending: true)
         .snapshots(includeMetadataChanges: true)
         .listen((users) {
       this.users =
@@ -17,4 +17,3 @@ class FirebaseProvider extends ChangeNotifier {
     return users;
   }
 }
-  
