@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967346002206",
+    "project_id": "fir-32d30",
+    "storage_bucket": "fir-32d30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967346002206:android:754545ac371bd028ce110f",
+        "android_client_info": {
+          "package_name": "com.example.siktok"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwCM6uTfoP4TNzTyx_a6vP_3MAymHBXHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
